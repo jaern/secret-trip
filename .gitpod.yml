@@ -11,3 +11,4 @@ tasks:
   - init: echo 'init script' # runs during prebuild
     command: cd secret-trip
     command: ng serve --open
+  - command: echo 'command test' # runs during prebuild
