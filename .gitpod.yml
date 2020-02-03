@@ -1,5 +1,4 @@
 tasks:
-  - init: echo "Replace me with a build script for the project."
-    command: npm install -g @angular/cli
+  - command: npm install -g @angular/cli
     command: cd secret-trip
     command: ng serve --open
